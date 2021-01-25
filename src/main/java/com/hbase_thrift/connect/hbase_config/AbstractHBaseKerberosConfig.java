@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
  * @version 1.0
  * @date 2021/1/25 13:58
  */
-public class AbstractHBaseKerberosConfig implements HBaseKerberosOperations {
+public class AbstractHBaseKerberosConfig implements HBaseOperations {
     private static final Logger LOGGER = LoggerFactory.getLogger(HBaseOperations.class);
     private Configuration configuration;
 
