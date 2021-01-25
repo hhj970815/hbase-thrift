@@ -1,0 +1,8 @@
+spring:
+  data:
+    hbase:
+      client-properties: hbase.client.retries.number=3
+      kerberos:
+        kerb5: /etc/krb5.conf
+        keytab: /opt/crm/servers/market-web/conf/hbase.keytab
+        principal: hbase/kad-crm02@KAD.COM
